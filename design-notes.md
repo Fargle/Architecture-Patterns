@@ -32,3 +32,5 @@ A *product* is indentified by a *SKU*, short for *stock-keeping unit*.
 
 An *order* is identified by an *order reference* and comprises of multiples **order lines**. 
 
+Each line has a *SKU* and a quantity. 
+

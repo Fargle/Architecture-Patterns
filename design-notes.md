@@ -17,5 +17,18 @@ In a layered architecture, we divide our code into discrete categories or roles,
     1. High-level modules should not depend on low-level modules. Both should depend on abstractions.
     2. Abstractions should not depend on details. Instead, details should depend on abstractions.
 
-#### **High-level modules**: of a software system are the functions, classes, and packages that deal with our real-world concepts. 
+#### **High-level modules** of a software system are the functions, classes, and packages that deal with our real-world concepts. 
+#### **Low-level modules** are the things that help the high-level but in a unimportant way. 
+
+# **Chapter 1**
+## **Domain Modeling**
+
+A **domain** is the problem you're trying to solve. 
+
+A **model** is a map of a process or phenomenon that captures a useful property. 
+
+## **Domain Language**
+A *product* is indentified by a *SKU*, short for *stock-keeping unit*. 
+
+An *order* is identified by an *order reference* and comprises of multiples **order lines**. 
 
